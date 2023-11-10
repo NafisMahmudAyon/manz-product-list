@@ -1,0 +1,675 @@
+{
+  "productDetails": {
+    "tshirt": [
+      {
+        "id": 1,
+        "productName": "Bongo Black",
+        "category": "T-Shirt",
+        "stock": true,
+        "sale": false,
+        "regularPrice": 200,
+        "salePrice": 100,
+        "color": "#fff",
+        "wishlist": false,
+        "size": [
+          {
+            "id": 1,
+            "sizeName": "S",
+            "stock": true
+          },
+          {
+            "id": 2,
+            "sizeName": "M",
+            "stock": false
+          },
+          {
+            "id": 3,
+            "sizeName": "L",
+            "stock": true
+          }
+        ],
+        "img": [
+          "https://i.ibb.co/xKZJhwG/PBT01-3x.png"
+        ],
+        "new": false,
+        "details": [
+          "Label: Hollister",
+          "Stretch: 98% Cotton 2% Spx",
+          "Fit:Slim fit",
+          "Stylish & Fashionable",
+          "Wash & Color guaranty",
+          "Available color:"
+        ],
+        "heading": "Premium quality 6 pocket jogger's "
+      },
+      {
+        "id": 2,
+        "productName": "Bongo White",
+        "category": "T-Shirt",
+        "stock": true,
+        "sale": true,
+        "regularPrice": 100,
+        "salePrice": 100,
+        "color": "#fff",
+        "wishlist": true,
+        "size": [
+          {
+            "id": 1,
+            "sizeName": "S",
+            "stock": true
+          },
+          {
+            "id": 2,
+            "sizeName": "M",
+            "stock": true
+          },
+          {
+            "id": 3,
+            "sizeName": "L",
+            "stock": true
+          }
+        ],
+        "img": [
+          "https://i.ibb.co/xKZJhwG/PBT01-3x.png"
+        ],
+        "new": true,
+        "details": [
+          "Label: Hollister",
+          "Stretch: 98% Cotton 2% Spx",
+          "Fit:Slim fit",
+          "Stylish & Fashionable",
+          "Wash & Color guaranty",
+          "Available color:"
+        ],
+        "heading": "Premium quality 6 pocket jogger's "
+      },
+      {
+        "id": 3,
+        "productName": "Khan Black",
+        "category": "T-Shirt",
+        "stock": true,
+        "sale": true,
+        "regularPrice": 100,
+        "salePrice": 100,
+        "color": "#fff",
+        "wishlist": true,
+        "size": [
+          {
+            "id": 1,
+            "sizeName": "S",
+            "stock": true
+          },
+          {
+            "id": 2,
+            "sizeName": "M",
+            "stock": true
+          },
+          {
+            "id": 3,
+            "sizeName": "L",
+            "stock": true
+          }
+        ],
+        "img": [
+          "https://i.ibb.co/xKZJhwG/PBT01-3x.png"
+        ],
+        "new": true,
+        "details": [
+          "Label: Hollister",
+          "Stretch: 98% Cotton 2% Spx",
+          "Fit:Slim fit",
+          "Stylish & Fashionable",
+          "Wash & Color guaranty",
+          "Available color:"
+        ],
+        "heading": "Premium quality 6 pocket jogger's "
+      },
+      {
+        "id": 4,
+        "productName": "Classy Red",
+        "category": "T-Shirt",
+        "stock": true,
+        "sale": true,
+        "regularPrice": 100,
+        "salePrice": 100,
+        "color": "#fff",
+        "wishlist": true,
+        "size": [
+          {
+            "id": 1,
+            "sizeName": "S",
+            "stock": true
+          },
+          {
+            "id": 2,
+            "sizeName": "M",
+            "stock": true
+          },
+          {
+            "id": 3,
+            "sizeName": "L",
+            "stock": true
+          }
+        ],
+        "img": [
+          "https://i.ibb.co/xKZJhwG/PBT01-3x.png"
+        ],
+        "new": true,
+        "details": [
+          "Label: Hollister",
+          "Stretch: 98% Cotton 2% Spx",
+          "Fit:Slim fit",
+          "Stylish & Fashionable",
+          "Wash & Color guaranty",
+          "Available color:"
+        ],
+        "heading": "Premium quality 6 pocket jogger's "
+      },
+      {
+        "id": 5,
+        "productName": "Classy Blue",
+        "category": "T-Shirt",
+        "stock": true,
+        "sale": true,
+        "regularPrice": 100,
+        "salePrice": 100,
+        "color": "#fff",
+        "wishlist": true,
+        "size": [
+          {
+            "id": 1,
+            "sizeName": "S",
+            "stock": true
+          },
+          {
+            "id": 2,
+            "sizeName": "M",
+            "stock": true
+          },
+          {
+            "id": 3,
+            "sizeName": "L",
+            "stock": true
+          }
+        ],
+        "img": [
+          "https://i.ibb.co/xKZJhwG/PBT01-3x.png"
+        ],
+        "new": true,
+        "details": [
+          "Label: Hollister",
+          "Stretch: 98% Cotton 2% Spx",
+          "Fit:Slim fit",
+          "Stylish & Fashionable",
+          "Wash & Color guaranty",
+          "Available color:"
+        ],
+        "heading": "Premium quality 6 pocket jogger's "
+      },
+      {
+        "id": 6,
+        "productName": "Classy Yellow",
+        "category": "T-Shirt",
+        "stock": true,
+        "sale": true,
+        "regularPrice": 100,
+        "salePrice": 100,
+        "color": "#fff",
+        "wishlist": true,
+        "size": [
+          {
+            "id": 1,
+            "sizeName": "S",
+            "stock": true
+          },
+          {
+            "id": 2,
+            "sizeName": "M",
+            "stock": true
+          },
+          {
+            "id": 3,
+            "sizeName": "L",
+            "stock": true
+          }
+        ],
+        "img": [
+          "https://i.ibb.co/xKZJhwG/PBT01-3x.png"
+        ],
+        "new": true,
+        "details": [
+          "Label: Hollister",
+          "Stretch: 98% Cotton 2% Spx",
+          "Fit:Slim fit",
+          "Stylish & Fashionable",
+          "Wash & Color guaranty",
+          "Available color:"
+        ],
+        "heading": "Premium quality 6 pocket jogger's "
+      },
+      {
+        "id": 7,
+        "productName": "First Take Ash",
+        "category": "T-Shirt",
+        "stock": true,
+        "sale": true,
+        "regularPrice": 100,
+        "salePrice": 100,
+        "color": "#fff",
+        "wishlist": true,
+        "size": [
+          {
+            "id": 1,
+            "sizeName": "S",
+            "stock": true
+          },
+          {
+            "id": 2,
+            "sizeName": "M",
+            "stock": true
+          },
+          {
+            "id": 3,
+            "sizeName": "L",
+            "stock": true
+          }
+        ],
+        "img": [
+          "https://i.ibb.co/xKZJhwG/PBT01-3x.png"
+        ],
+        "new": true,
+        "details": [
+          "Label: Hollister",
+          "Stretch: 98% Cotton 2% Spx",
+          "Fit:Slim fit",
+          "Stylish & Fashionable",
+          "Wash & Color guaranty",
+          "Available color:"
+        ],
+        "heading": "Premium quality 6 pocket jogger's "
+      },
+      {
+        "id": 8,
+        "productName": "First Take Blue",
+        "category": "T-Shirt",
+        "stock": true,
+        "sale": true,
+        "regularPrice": 100,
+        "salePrice": 100,
+        "color": "#fff",
+        "wishlist": true,
+        "size": [
+          {
+            "id": 1,
+            "sizeName": "S",
+            "stock": true
+          },
+          {
+            "id": 2,
+            "sizeName": "M",
+            "stock": true
+          },
+          {
+            "id": 3,
+            "sizeName": "L",
+            "stock": true
+          }
+        ],
+        "img": [
+          "https://i.ibb.co/xKZJhwG/PBT01-3x.png"
+        ],
+        "new": true,
+        "details": [
+          "Label: Hollister",
+          "Stretch: 98% Cotton 2% Spx",
+          "Fit:Slim fit",
+          "Stylish & Fashionable",
+          "Wash & Color guaranty",
+          "Available color:"
+        ],
+        "heading": "Premium quality 6 pocket jogger's "
+      },
+      {
+        "id": 9,
+        "productName": "First Take Black",
+        "category": "T-Shirt",
+        "stock": true,
+        "sale": true,
+        "regularPrice": 100,
+        "salePrice": 100,
+        "color": "#fff",
+        "wishlist": true,
+        "size": [
+          {
+            "id": 1,
+            "sizeName": "S",
+            "stock": true
+          },
+          {
+            "id": 2,
+            "sizeName": "M",
+            "stock": true
+          },
+          {
+            "id": 3,
+            "sizeName": "L",
+            "stock": true
+          }
+        ],
+        "img": [
+          "https://i.ibb.co/xKZJhwG/PBT01-3x.png"
+        ],
+        "new": true,
+        "details": [
+          "Label: Hollister",
+          "Stretch: 98% Cotton 2% Spx",
+          "Fit:Slim fit",
+          "Stylish & Fashionable",
+          "Wash & Color guaranty",
+          "Available color:"
+        ],
+        "heading": "Premium quality 6 pocket jogger's "
+      },
+      {
+        "id": 10,
+        "productName": "First Take Print",
+        "category": "T-Shirt",
+        "stock": true,
+        "sale": true,
+        "regularPrice": 100,
+        "salePrice": 100,
+        "color": "#fff",
+        "wishlist": true,
+        "size": [
+          {
+            "id": 1,
+            "sizeName": "S",
+            "stock": true
+          },
+          {
+            "id": 2,
+            "sizeName": "M",
+            "stock": true
+          },
+          {
+            "id": 3,
+            "sizeName": "L",
+            "stock": true
+          }
+        ],
+        "img": [
+          "https://i.ibb.co/xKZJhwG/PBT01-3x.png"
+        ],
+        "new": true,
+        "details": [
+          "Label: Hollister",
+          "Stretch: 98% Cotton 2% Spx",
+          "Fit:Slim fit",
+          "Stylish & Fashionable",
+          "Wash & Color guaranty",
+          "Available color:"
+        ],
+        "heading": "Premium quality 6 pocket jogger's "
+      },
+      {
+        "id": 11,
+        "productName": "Wintex Red",
+        "category": "T-Shirt",
+        "stock": true,
+        "sale": true,
+        "regularPrice": 100,
+        "salePrice": 100,
+        "color": "#fff",
+        "wishlist": true,
+        "size": [
+          {
+            "id": 1,
+            "sizeName": "S",
+            "stock": true
+          },
+          {
+            "id": 2,
+            "sizeName": "M",
+            "stock": true
+          },
+          {
+            "id": 3,
+            "sizeName": "L",
+            "stock": true
+          }
+        ],
+        "img": [
+          "https://i.ibb.co/xKZJhwG/PBT01-3x.png"
+        ],
+        "new": true,
+        "details": [
+          "Label: Hollister",
+          "Stretch: 98% Cotton 2% Spx",
+          "Fit:Slim fit",
+          "Stylish & Fashionable",
+          "Wash & Color guaranty",
+          "Available color:"
+        ],
+        "heading": "Premium quality 6 pocket jogger's "
+      },
+      {
+        "id": 12,
+        "productName": "Wintex T-Paste",
+        "category": "T-Shirt",
+        "stock": true,
+        "sale": true,
+        "regularPrice": 100,
+        "salePrice": 100,
+        "color": "#fff",
+        "wishlist": true,
+        "size": [
+          {
+            "id": 1,
+            "sizeName": "S",
+            "stock": true
+          },
+          {
+            "id": 2,
+            "sizeName": "M",
+            "stock": true
+          },
+          {
+            "id": 3,
+            "sizeName": "L",
+            "stock": true
+          }
+        ],
+        "img": [
+          "https://i.ibb.co/xKZJhwG/PBT01-3x.png"
+        ],
+        "new": true,
+        "details": [
+          "Label: Hollister",
+          "Stretch: 98% Cotton 2% Spx",
+          "Fit:Slim fit",
+          "Stylish & Fashionable",
+          "Wash & Color guaranty",
+          "Available color:"
+        ],
+        "heading": "Premium quality 6 pocket jogger's "
+      },
+      {
+        "id": 13,
+        "productName": "Wintex T-Black",
+        "category": "T-Shirt",
+        "stock": true,
+        "sale": true,
+        "regularPrice": 100,
+        "salePrice": 100,
+        "color": "#fff",
+        "wishlist": true,
+        "size": [
+          {
+            "id": 1,
+            "sizeName": "S",
+            "stock": true
+          },
+          {
+            "id": 2,
+            "sizeName": "M",
+            "stock": true
+          },
+          {
+            "id": 3,
+            "sizeName": "L",
+            "stock": true
+          }
+        ],
+        "img": [
+          "https://i.ibb.co/xKZJhwG/PBT01-3x.png"
+        ],
+        "new": true,
+        "details": [
+          "Label: Hollister",
+          "Stretch: 98% Cotton 2% Spx",
+          "Fit:Slim fit",
+          "Stylish & Fashionable",
+          "Wash & Color guaranty",
+          "Available color:"
+        ],
+        "heading": "Premium quality 6 pocket jogger's "
+      },
+      {
+        "id": 14,
+        "productName": "Shirt N.Blue",
+        "category": "T-Shirt",
+        "stock": true,
+        "sale": true,
+        "regularPrice": 100,
+        "salePrice": 100,
+        "color": "#fff",
+        "wishlist": true,
+        "size": [
+          {
+            "id": 1,
+            "sizeName": "S",
+            "stock": true
+          },
+          {
+            "id": 2,
+            "sizeName": "M",
+            "stock": true
+          },
+          {
+            "id": 3,
+            "sizeName": "L",
+            "stock": true
+          }
+        ],
+        "img": [
+          "https://i.ibb.co/xKZJhwG/PBT01-3x.png"
+        ],
+        "new": true,
+        "details": [
+          "Label: Hollister",
+          "Stretch: 98% Cotton 2% Spx",
+          "Fit:Slim fit",
+          "Stylish & Fashionable",
+          "Wash & Color guaranty",
+          "Available color:"
+        ],
+        "heading": "Premium quality 6 pocket jogger's "
+      },
+      {
+        "id": 15,
+        "productName": "Shirt Violet",
+        "category": "T-Shirt",
+        "stock": true,
+        "sale": true,
+        "regularPrice": 100,
+        "salePrice": 100,
+        "color": "#fff",
+        "wishlist": true,
+        "size": [
+          {
+            "id": 1,
+            "sizeName": "S",
+            "stock": true
+          },
+          {
+            "id": 2,
+            "sizeName": "M",
+            "stock": true
+          },
+          {
+            "id": 3,
+            "sizeName": "L",
+            "stock": true
+          }
+        ],
+        "img": [
+          "https://i.ibb.co/xKZJhwG/PBT01-3x.png"
+        ],
+        "new": true,
+        "details": [
+          "Label: Hollister",
+          "Stretch: 98% Cotton 2% Spx",
+          "Fit:Slim fit",
+          "Stylish & Fashionable",
+          "Wash & Color guaranty",
+          "Available color:"
+        ],
+        "heading": "Premium quality 6 pocket jogger's "
+      }
+    ],
+    "pant": [
+      {
+        "id": 1,
+        "productName": "Gabardine Black"
+      },
+      {
+        "id": 2,
+        "productName": "Gabardine Khaki"
+      },
+      {
+        "id": 3,
+        "productName": "Gabardine Navy"
+      },
+      {
+        "id": 4,
+        "productName": "Cargo Olive"
+      },
+      {
+        "id": 5,
+        "productName": "Cargo Dark Olive"
+      },
+      {
+        "id": 6,
+        "productName": "AE Blue Jeans"
+      },
+      {
+        "id": 7,
+        "productName": "AE Black Jeans"
+      },
+      {
+        "id": 8,
+        "productName": "DOF Black"
+      },
+      {
+        "id": 9,
+        "productName": "Jack & Jones Blue"
+      },
+      {
+        "id": 10,
+        "productName": "Wings Light Blue"
+      },
+      {
+        "id": 11,
+        "productName": "Cargo Hollister Black"
+      },
+      {
+        "id": 12,
+        "productName": "Cargo Hollister Olive"
+      },
+      {
+        "id": 13,
+        "productName": "Cargo Hollister Khaki"
+      }
+    ]
+  }
+}
