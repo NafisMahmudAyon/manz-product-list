@@ -98,10 +98,10 @@ function App() {
 	return (
 		<div className="max-w-[100vw] min-h-[100vh] bg-slate-900  ">
 			<header className="flex justify-center items-center py-6 ">
-				<img src="/lg.png" alt="logo" className="w-1/6 max-w-[200px]   " />
+				<img src="/lg.png" alt="logo" className="w-1/6 min-w-[100px] max-w-[200px]   " />
 			</header>
 			<div className="flex justify-center w-[100%] mt-10 ">
-				<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 w-[75%] bg-gray-900 ">
+				<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-4 w-[75%] bg-gray-900 ">
 					{tshirt.map((item, index) => (
 						<div
 							key={index}
