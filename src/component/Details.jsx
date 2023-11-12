@@ -2,7 +2,7 @@
 
 import React from "react";
 
-import "react-awesome-slider/dist/styles.css";
+
 
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
