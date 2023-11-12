@@ -27,7 +27,7 @@ const Details = ({ isOpen, closePopup, selectedItem }) => {
 				onClick={closePopup}></div> */}
 			<div className=" min-h-full p-8 rounded-md mt-6 z-10 ">
 				<div className="flex flex-col  ">
-					<div className="border rounded-md ">
+					<div className="border rounded-md mb-3 ">
 						<Splide
 							aria-label="My Favorite Images"
 							options={{
@@ -120,7 +120,7 @@ const Details = ({ isOpen, closePopup, selectedItem }) => {
 							</div>
 						</div>
 					</div>
-					<div className="flex items-center gap-6 my-4 ">
+					<div className="hidden items-center gap-6 my-4 ">
 						<button
 							className="transition ease-in-out duration-300 inline-flex items-center text-sm font-medium mb-2 md:mb-0 bg-purple-500 px-5 py-2 hover:shadow-lg tracking-wider text-white rounded-full hover:bg-purple-600 "
 							onClick={() => openDetails(selectedItem)}>
@@ -129,6 +129,13 @@ const Details = ({ isOpen, closePopup, selectedItem }) => {
 						<button className="hidden transition ease-in-out duration-300 inline-flex items-center text-sm font-medium mb-2 md:mb-0 bg-purple-500 px-5 py-2 hover:shadow-lg tracking-wider text-white rounded-full hover:bg-purple-600 ">
 							Buy Now
 						</button>
+					</div>
+					<div className="my-4 ">
+						{selectedItem?.details.map((item, index) => (
+							<div className="mb-3 ">
+								<span className="animate-ping-slow  ">✨</span> <span>{item}</span>
+							</div>
+						) )}
 					</div>
 				
 

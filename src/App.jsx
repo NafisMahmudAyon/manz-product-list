@@ -45,7 +45,7 @@ function App() {
 									alt="Just a flower"
 									className="object-fill  rounded-2xl"
 								/>
-								<button className="transition absolute top-2 right-2 ease-in-out duration-300   hover:text-purple-500 shadow hover:shadow-md  rounded-full w-8 h-8 text-center p-1 flex justify-center ">
+								<button className="transition absolute top-2 right-2 ease-in-out duration-300   hover:text-purple-500 shadow hover:shadow-md  rounded-full w-8 h-8 text-center p-1 flex justify-center " onClick={!item.wishlist}>
 									{item.wishlist ? (
 										<WishlistDone className="w-5 h-5 " fill="red" />
 									) : (
