@@ -19,7 +19,7 @@ function App() {
 	const closePopup = () => {
 		setPopupOpen(false);
 	};
-	const [activeButton, setActiveButton] = useState("T-Shirt");
+	const [activeButton, setActiveButton] = useState("Pant");
 	const [productList, setProductList] = useState(data.productDetails?.tshirt);
 
 	useEffect(() => {
@@ -49,22 +49,22 @@ function App() {
 				<button
 					type="button"
 					className={`p-2 ${
-						activeButton === "T-Shirt" ? "bg-teal-800" : "bg-teal-600"
-					}  px-4 rounded-md`}
-					onClick={() => handleButtonClick("T-Shirt")}>
-					T-Shirt
-				</button>
-				<button
-					type="button"
-					className={`p-2 ${
 						activeButton === "Pant" ? "bg-teal-800" : "bg-teal-600"
 					} px-4 rounded-md`}
 					onClick={() => handleButtonClick("Pant")}>
 					Pant
 				</button>
+				<button
+					type="button"
+					className={`p-2 ${
+						activeButton === "T-Shirt" ? "bg-teal-800" : "bg-teal-600"
+					}  px-4 rounded-md`}
+					onClick={() => handleButtonClick("T-Shirt")}>
+					T-Shirt
+				</button>
 			</div>
 			<div className="flex justify-center w-[100%] mt-10 ">
-				<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-4 w-[75%] md:w-[85%] bg-gray-900 ">
+				<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-4 w-[75%] md:w-[85%] bg-gray-900">
 					{productList?.map((item, index) => (
 						<div
 							key={index}
@@ -142,7 +142,10 @@ function App() {
 									<div className="text-xl font-bold ">৳{item.regularPrice}</div>
 								)}
 							</div>
-							<div className={`flex gap-4 ${activeButton === 'Pant' ? "flex-col items-start" : "" } `}>
+							<div
+								className={`flex gap-4 ${
+									activeButton === "Pant" ? "flex-col items-start" : ""
+								} `}>
 								<div className="flex justify-center items-center gap-2">
 									<span className="text-gray-400">Color:</span>
 									<span
