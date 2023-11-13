@@ -623,55 +623,700 @@
     "pant": [
       {
         "id": 1,
-        "productName": "Gabardine Black"
+        "productName": "Gabardine Black",
+        "category": "Pant",
+        "stock": true,
+        "sale": true,
+        "regularPrice": 100,
+        "salePrice": 100,
+        "color": "#fff",
+        "wishlist": true,
+        "size": [
+          {
+            "id": 1,
+            "sizeName": "28",
+            "stock": true
+          },
+          {
+            "id": 2,
+            "sizeName": "30",
+            "stock": true
+          },
+          {
+            "id": 3,
+            "sizeName": "32",
+            "stock": true
+          },
+          {
+            "id": 4,
+            "sizeName": "34",
+            "stock": true
+          },
+          {
+            "id": 5,
+            "sizeName": "36",
+            "stock": true
+          },
+          {
+            "id": 6,
+            "sizeName": "38",
+            "stock": true
+          }
+        ],
+        "img": [
+          "https://i.ibb.co/xKZJhwG/PBT01-3x.png"
+        ],
+        "new": true,
+        "details": [
+          "Label: Hollister",
+          "Stretch: 98% Cotton 2% Spx",
+          "Fit:Slim fit",
+          "Stylish & Fashionable",
+          "Wash & Color guaranty",
+          "Available color:"
+        ],
+        "heading": "Premium quality 6 pocket jogger's "
       },
       {
         "id": 2,
-        "productName": "Gabardine Khaki"
+        "productName": "Gabardine Khaki",
+        "category": "Pant",
+        "stock": true,
+        "sale": true,
+        "regularPrice": 100,
+        "salePrice": 100,
+        "color": "#fff",
+        "wishlist": true,
+        "size": [
+          {
+            "id": 1,
+            "sizeName": "28",
+            "stock": true
+          },
+          {
+            "id": 2,
+            "sizeName": "30",
+            "stock": true
+          },
+          {
+            "id": 3,
+            "sizeName": "32",
+            "stock": true
+          },
+          {
+            "id": 4,
+            "sizeName": "34",
+            "stock": true
+          },
+          {
+            "id": 5,
+            "sizeName": "36",
+            "stock": true
+          },
+          {
+            "id": 6,
+            "sizeName": "38",
+            "stock": true
+          }
+        ],
+        "img": [
+          "https://i.ibb.co/xKZJhwG/PBT01-3x.png"
+        ],
+        "new": true,
+        "details": [
+          "Label: Hollister",
+          "Stretch: 98% Cotton 2% Spx",
+          "Fit:Slim fit",
+          "Stylish & Fashionable",
+          "Wash & Color guaranty",
+          "Available color:"
+        ],
+        "heading": "Premium quality 6 pocket jogger's "
       },
       {
         "id": 3,
-        "productName": "Gabardine Navy"
+        "productName": "Gabardine Navy",
+        "category": "Pant",
+        "stock": true,
+        "sale": true,
+        "regularPrice": 100,
+        "salePrice": 100,
+        "color": "#fff",
+        "wishlist": true,
+        "size": [
+          {
+            "id": 1,
+            "sizeName": "28",
+            "stock": true
+          },
+          {
+            "id": 2,
+            "sizeName": "30",
+            "stock": true
+          },
+          {
+            "id": 3,
+            "sizeName": "32",
+            "stock": true
+          },
+          {
+            "id": 4,
+            "sizeName": "34",
+            "stock": true
+          },
+          {
+            "id": 5,
+            "sizeName": "36",
+            "stock": true
+          },
+          {
+            "id": 6,
+            "sizeName": "38",
+            "stock": true
+          }
+        ],
+        "img": [
+          "https://i.ibb.co/xKZJhwG/PBT01-3x.png"
+        ],
+        "new": true,
+        "details": [
+          "Label: Hollister",
+          "Stretch: 98% Cotton 2% Spx",
+          "Fit:Slim fit",
+          "Stylish & Fashionable",
+          "Wash & Color guaranty",
+          "Available color:"
+        ],
+        "heading": "Premium quality 6 pocket jogger's "
       },
       {
         "id": 4,
-        "productName": "Cargo Olive"
+        "productName": "Cargo Olive",
+        "category": "Pant",
+        "stock": true,
+        "sale": true,
+        "regularPrice": 100,
+        "salePrice": 100,
+        "color": "#fff",
+        "wishlist": true,
+        "size": [
+          {
+            "id": 1,
+            "sizeName": "30",
+            "stock": true
+          },
+          {
+            "id": 2,
+            "sizeName": "32",
+            "stock": true
+          },
+          {
+            "id": 3,
+            "sizeName": "34",
+            "stock": true
+          },
+          {
+            "id": 4,
+            "sizeName": "36",
+            "stock": true
+          },
+          {
+            "id": 5,
+            "sizeName": "38",
+            "stock": true
+          }
+        ],
+        "img": [
+          "https://i.ibb.co/xKZJhwG/PBT01-3x.png"
+        ],
+        "new": true,
+        "details": [
+          "Label: Hollister",
+          "Stretch: 98% Cotton 2% Spx",
+          "Fit:Slim fit",
+          "Stylish & Fashionable",
+          "Wash & Color guaranty",
+          "Available color:"
+        ],
+        "heading": "Premium quality 6 pocket jogger's "
       },
       {
         "id": 5,
-        "productName": "Cargo Dark Olive"
+        "productName": "Cargo Dark Olive",
+        "category": "Pant",
+        "stock": true,
+        "sale": true,
+        "regularPrice": 100,
+        "salePrice": 100,
+        "color": "#fff",
+        "wishlist": true,
+        "size": [
+          {
+            "id": 1,
+            "sizeName": "30",
+            "stock": true
+          },
+          {
+            "id": 2,
+            "sizeName": "32",
+            "stock": true
+          },
+          {
+            "id": 3,
+            "sizeName": "34",
+            "stock": true
+          },
+          {
+            "id": 4,
+            "sizeName": "36",
+            "stock": true
+          },
+          {
+            "id": 5,
+            "sizeName": "38",
+            "stock": true
+          }
+        ],
+        "img": [
+          "https://i.ibb.co/xKZJhwG/PBT01-3x.png"
+        ],
+        "new": true,
+        "details": [
+          "Label: Hollister",
+          "Stretch: 98% Cotton 2% Spx",
+          "Fit:Slim fit",
+          "Stylish & Fashionable",
+          "Wash & Color guaranty",
+          "Available color:"
+        ],
+        "heading": "Premium quality 6 pocket jogger's "
       },
       {
         "id": 6,
-        "productName": "AE Blue Jeans"
+        "productName": "AE Black Jeans",
+        "category": "Pant",
+        "stock": true,
+        "sale": true,
+        "regularPrice": 100,
+        "salePrice": 100,
+        "color": "#fff",
+        "wishlist": true,
+        "size": [
+          {
+            "id": 1,
+            "sizeName": "30",
+            "stock": true
+          },
+          {
+            "id": 2,
+            "sizeName": "32",
+            "stock": true
+          },
+          {
+            "id": 3,
+            "sizeName": "34",
+            "stock": true
+          },
+          {
+            "id": 4,
+            "sizeName": "36",
+            "stock": true
+          }
+        ],
+        "img": [
+          "https://i.ibb.co/QmyVvdQ/IMG-20231020-WA0009.jpg",
+          "https://i.ibb.co/k35C3D1/IMG-20231020-WA0011.jpg",
+          "https://i.ibb.co/yqJXHXy/IMG-20231020-WA0012.jpg",
+          "https://i.ibb.co/NyK6vmr/IMG-20231020-WA0014.jpg",
+          "https://i.ibb.co/drDSvcL/IMG-20231020-WA0015.jpg",
+          "https://i.ibb.co/k9CCwV2/IMG-20231020-WA0017.jpg",
+          "https://i.ibb.co/jf8GjBB/IMG-20231020-WA0018.jpg"
+        ],
+        "new": true,
+        "details": [
+          "Brand: American Eagle 🦅",
+          "Fabric: Knit Denim (320 gsm)",
+          "Wash: Stone wash",
+          "Stretch: 98% Cotton 2% Spx",
+          "Fit:Slim fit",
+          "Stylish & Fashionable",
+          "Wash & Color guaranty",
+          "Available color: As given in picture",
+          "Length: Regular"
+        ],
+        "heading": "Premium quality 6 pocket jogger's "
       },
       {
         "id": 7,
-        "productName": "AE Black Jeans"
+        "productName": "AE Blue Jeans",
+        "category": "Pant",
+        "stock": true,
+        "sale": true,
+        "regularPrice": 100,
+        "salePrice": 100,
+        "color": "#fff",
+        "wishlist": true,
+        "size": [
+          {
+            "id": 1,
+            "sizeName": "30",
+            "stock": true
+          },
+          {
+            "id": 2,
+            "sizeName": "32",
+            "stock": true
+          },
+          {
+            "id": 3,
+            "sizeName": "34",
+            "stock": true
+          },
+          {
+            "id": 4,
+            "sizeName": "36",
+            "stock": true
+          }
+        ],
+        "img": [
+          "https://i.ibb.co/7nt8mYY/IMG-20231024-WA0173.jpg",
+          "https://i.ibb.co/NpXK963/IMG-20231024-WA0171.jpg",
+          "https://i.ibb.co/THtfBC6/IMG-20231024-WA0174.jpg",
+          "https://i.ibb.co/4j0vq3n/IMG-20231024-WA0172.jpg"
+        ],
+        "new": true,
+        "details": [
+          "Brand: American Eagle 🦅",
+          "Fabric: Knit Denim (320 gsm)",
+          "Wash: Stone wash",
+          "Stretch: 98% Cotton 2% Spx",
+          "Fit:Slim fit",
+          "Stylish & Fashionable",
+          "Wash & Color guaranty",
+          "Available color: As given in picture",
+          "Length: Regular"
+        ],
+        "heading": "Premium quality 6 pocket jogger's "
       },
       {
         "id": 8,
-        "productName": "DOF Black"
+        "productName": "DOF Black",
+        "category": "Pant",
+        "stock": true,
+        "sale": true,
+        "regularPrice": 100,
+        "salePrice": 100,
+        "color": "#fff",
+        "wishlist": true,
+        "size": [
+          {
+            "id": 1,
+            "sizeName": "30",
+            "stock": true
+          },
+          {
+            "id": 2,
+            "sizeName": "32",
+            "stock": true
+          },
+          {
+            "id": 3,
+            "sizeName": "34",
+            "stock": true
+          },
+          {
+            "id": 4,
+            "sizeName": "36",
+            "stock": true
+          },
+          {
+            "id": 5,
+            "sizeName": "38",
+            "stock": true
+          }
+        ],
+        "img": [
+          "https://i.ibb.co/nLhFyzw/IMG-20231020-WA0003.jpg",
+          "https://i.ibb.co/ZgDSr8V/IMG-20231020-WA0004.jpg",
+          "https://i.ibb.co/3kpT3xH/IMG-20231020-WA0005.jpg",
+          "https://i.ibb.co/WHVKXqZ/IMG-20231020-WA0006.jpg",
+          "https://i.ibb.co/gDMyDXX/IMG-20231020-WA0007.jpg"
+        ],
+        "new": true,
+        "details": [
+          "Brand: DOF (Indian)",
+          "Fabric: Knit Denim (320 gsm)",
+          "Stretch: 98% Cotton 2% Spx",
+          "Fit:Slim fit",
+          "Stylish & Fashionable",
+          "Wash & Color guaranty",
+          "Available color: As given in picture",
+          "Length: Regular"
+        ],
+        "heading": "Premium quality 6 pocket jogger's "
       },
       {
         "id": 9,
-        "productName": "Jack & Jones Blue"
+        "productName": "Jack & Jones Blue",
+        "category": "Pant",
+        "stock": true,
+        "sale": true,
+        "regularPrice": 100,
+        "salePrice": 100,
+        "color": "#fff",
+        "wishlist": true,
+        "size": [
+          {
+            "id": 1,
+            "sizeName": "30",
+            "stock": true
+          },
+          {
+            "id": 2,
+            "sizeName": "32",
+            "stock": true
+          },
+          {
+            "id": 3,
+            "sizeName": "34",
+            "stock": true
+          },
+          {
+            "id": 4,
+            "sizeName": "36",
+            "stock": true
+          }
+        ],
+        "img": [
+          "https://i.ibb.co/D5zKwP3/IMG-20231020-WA0001.jpg",
+          "https://i.ibb.co/HKwhq5c/IMG-20231020-WA0002.jpg"
+        ],
+        "new": true,
+        "details": [
+          "Brand: Jack & Jones",
+          "Fabric: Knit Denim (320 gsm)",
+          "Wash: Stone wash & Silicon wash",
+          "Stretch: 98% Cotton 2% Spx",
+          "Fit:Slim fit",
+          "Stylish & Fashionable",
+          "Wash & Color guaranty",
+          "Available color: As given in picture",
+          "Length: Regular"
+        ],
+        "heading": "Premium quality 6 pocket jogger's "
       },
       {
         "id": 10,
-        "productName": "Wings Light Blue"
+        "productName": "Wings Light Blue",
+        "category": "Pant",
+        "stock": true,
+        "sale": true,
+        "regularPrice": 100,
+        "salePrice": 100,
+        "color": "#fff",
+        "wishlist": true,
+        "size": [
+          {
+            "id": 1,
+            "sizeName": "28",
+            "stock": true
+          },
+          {
+            "id": 2,
+            "sizeName": "30",
+            "stock": true
+          },
+          {
+            "id": 3,
+            "sizeName": "32",
+            "stock": true
+          },
+          {
+            "id": 4,
+            "sizeName": "34",
+            "stock": true
+          },
+          {
+            "id": 5,
+            "sizeName": "36",
+            "stock": true
+          }
+        ],
+        "img": [
+          "https://i.ibb.co/dMGpWFp/IMG-20230726-WA0158.jpg",
+          "https://i.ibb.co/9yZG32Q/IMG-20230726-WA0167.jpg",
+          "https://i.ibb.co/HCNr4by/IMG-20230726-WA0154.jpg",
+          "https://i.ibb.co/RY7fM8d/IMG-20230726-WA0155.jpg",
+          "https://i.ibb.co/L6t8DCP/IMG-20230726-WA0156.jpg",
+          "https://i.ibb.co/VVpFbwJ/IMG-20230726-WA0157.jpg",
+          "https://i.ibb.co/1X4QmH4/IMG-20230726-WA0159.jpg",
+          "https://i.ibb.co/TW2NwCz/IMG-20230726-WA0164.jpg"
+        ],
+        "new": true,
+        "details": [
+          "Brand: Wings",
+          "Fabric: Knit Denim (320 gsm)",
+          "Stretch: 98% Cotton 2% Spx",
+          "Fit:Slim fit",
+          "Stylish & Fashionable",
+          "Wash & Color guaranty",
+          "Available color: As given in picture",
+          "Length: Regular"
+        ],
+        "heading": "Premium quality 6 pocket jogger's "
       },
       {
         "id": 11,
-        "productName": "Cargo Hollister Black"
+        "productName": "Cargo Hollister Black",
+        "category": "Pant",
+        "stock": true,
+        "sale": true,
+        "regularPrice": 100,
+        "salePrice": 100,
+        "color": "#fff",
+        "wishlist": true,
+        "size": [
+          {
+            "id": 1,
+            "sizeName": "30",
+            "stock": true
+          },
+          {
+            "id": 2,
+            "sizeName": "32",
+            "stock": true
+          },
+          {
+            "id": 3,
+            "sizeName": "34",
+            "stock": true
+          },
+          {
+            "id": 4,
+            "sizeName": "36",
+            "stock": true
+          },
+          {
+            "id": 5,
+            "sizeName": "38",
+            "stock": true
+          }
+        ],
+        "img": [
+          "https://i.ibb.co/xKZJhwG/PBT01-3x.png"
+        ],
+        "new": true,
+        "details": [
+          "Label: Hollister",
+          "Stretch: 98% Cotton 2% Spx",
+          "Fit:Slim fit",
+          "Stylish & Fashionable",
+          "Wash & Color guaranty",
+          "Available color:"
+        ],
+        "heading": "Premium quality 6 pocket jogger's "
       },
       {
         "id": 12,
-        "productName": "Cargo Hollister Olive"
+        "productName": "Cargo Hollister Olive",
+        "category": "Pant",
+        "stock": true,
+        "sale": true,
+        "regularPrice": 100,
+        "salePrice": 100,
+        "color": "#fff",
+        "wishlist": true,
+        "size": [
+          {
+            "id": 1,
+            "sizeName": "30",
+            "stock": true
+          },
+          {
+            "id": 2,
+            "sizeName": "32",
+            "stock": true
+          },
+          {
+            "id": 3,
+            "sizeName": "34",
+            "stock": true
+          },
+          {
+            "id": 4,
+            "sizeName": "36",
+            "stock": true
+          },
+          {
+            "id": 5,
+            "sizeName": "38",
+            "stock": true
+          }
+        ],
+        "img": [
+          "https://i.ibb.co/xKZJhwG/PBT01-3x.png"
+        ],
+        "new": true,
+        "details": [
+          "Label: Hollister",
+          "Stretch: 98% Cotton 2% Spx",
+          "Fit:Slim fit",
+          "Stylish & Fashionable",
+          "Wash & Color guaranty",
+          "Available color:"
+        ],
+        "heading": "Premium quality 6 pocket jogger's "
       },
       {
         "id": 13,
-        "productName": "Cargo Hollister Khaki"
+        "productName": "Cargo Hollister Khaki",
+        "category": "Pant",
+        "stock": true,
+        "sale": true,
+        "regularPrice": 100,
+        "salePrice": 100,
+        "color": "#fff",
+        "wishlist": true,
+        "size": [
+          {
+            "id": 1,
+            "sizeName": "30",
+            "stock": true
+          },
+          {
+            "id": 2,
+            "sizeName": "32",
+            "stock": true
+          },
+          {
+            "id": 3,
+            "sizeName": "34",
+            "stock": true
+          },
+          {
+            "id": 4,
+            "sizeName": "36",
+            "stock": true
+          },
+          {
+            "id": 5,
+            "sizeName": "38",
+            "stock": true
+          }
+        ],
+        "img": [
+          "https://i.ibb.co/xKZJhwG/PBT01-3x.png"
+        ],
+        "new": true,
+        "details": [
+          "Label: Hollister",
+          "Stretch: 98% Cotton 2% Spx",
+          "Fit:Slim fit",
+          "Stylish & Fashionable",
+          "Wash & Color guaranty",
+          "Available color:"
+        ],
+        "heading": "Premium quality 6 pocket jogger's "
       }
     ]
   }

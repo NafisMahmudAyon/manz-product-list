@@ -1,15 +1,11 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Details from "./component/Details";
 import data from "./product.json";
 import { Star, Wishlist, WishlistDone } from "./component/Icon";
 import TooltipItem from "./component/TooltipItem";
 
-
-const tshirt = data.productDetails?.tshirt;
-console.log(tshirt);
-
-
-
+// const productList = data.productDetails?.tshirt;
+console.log(data.productDetails?.pant);
 
 function App() {
 	const [isPopupOpen, setPopupOpen] = useState(false);
@@ -23,9 +19,25 @@ function App() {
 	const closePopup = () => {
 		setPopupOpen(false);
 	};
+	const [activeButton, setActiveButton] = useState("T-Shirt");
+	const [productList, setProductList] = useState(data.productDetails?.tshirt);
 
+	useEffect(() => {
+		if (activeButton === "T-Shirt") {
+			const productData = data.productDetails?.tshirt;
+			setProductList(data.productDetails?.tshirt);
+		}
+		if (activeButton === "Pant") {
+			const productData = data.productDetails?.pant;
+			setProductList(data.productDetails?.pant);
+		}
+	}, [activeButton]);
+
+	const handleButtonClick = (buttonType) => {
+		setActiveButton(buttonType);
+	};
 	return (
-		<div className="max-w-[100vw] min-h-[100vh] bg-slate-900  ">
+		<div className="w-[100vw] max-w-[100vw] min-h-[100vh] bg-slate-900  ">
 			<header className="flex justify-center items-center py-6 ">
 				<img
 					src="/lg.png"
@@ -33,19 +45,57 @@ function App() {
 					className="w-1/6 min-w-[100px] max-w-[200px]   "
 				/>
 			</header>
+			<div className="flex justify-center items-center gap-4 ">
+				<button
+					type="button"
+					className={`p-2 ${
+						activeButton === "T-Shirt" ? "bg-teal-800" : "bg-teal-600"
+					}  px-4 rounded-md`}
+					onClick={() => handleButtonClick("T-Shirt")}>
+					T-Shirt
+				</button>
+				<button
+					type="button"
+					className={`p-2 ${
+						activeButton === "Pant" ? "bg-teal-800" : "bg-teal-600"
+					} px-4 rounded-md`}
+					onClick={() => handleButtonClick("Pant")}>
+					Pant
+				</button>
+			</div>
 			<div className="flex justify-center w-[100%] mt-10 ">
-				<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-4 w-[75%] bg-gray-900 ">
-					{tshirt.map((item, index) => (
+				<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-4 w-[75%] md:w-[85%] bg-gray-900 ">
+					{productList?.map((item, index) => (
 						<div
 							key={index}
-							className="flex flex-col border p-6 rounded-2xl w-full ">
+							className="flex flex-col border p-4 rounded-2xl w-full ">
 							<div className="relative ">
 								<img
-									src="https://images.unsplash.com/photo-1577982787983-e07c6730f2d3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2059&q=80"
+									src={item.img[0]}
 									alt="Just a flower"
-									className="object-fill  rounded-2xl"
+									className="object-cover cursor-pointer rounded-2xl h-[320px] w-[100%] "
+									onClick={() => openDetails(item)}
 								/>
-								<button className="transition absolute top-2 right-2 ease-in-out duration-300   hover:text-purple-500 shadow hover:shadow-md  rounded-full w-8 h-8 text-center p-1 flex justify-center " onClick={!item.wishlist}>
+								{/* <button
+									className="transition absolute top-2 right-2 ease-in-out duration-300   hover:text-purple-500 shadow hover:shadow-md  rounded-full w-8 h-8 text-center p-1 flex justify-center "
+									onClick={!item.wishlist}>
+									{item.wishlist ? (
+										<WishlistDone className="w-5 h-5 " fill="red" />
+									) : (
+										<Wishlist
+											className="w-5 h-5 "
+											fill="#ffffff00"
+											stroke="red"
+											strokeWidth="3px"
+										/>
+									)}
+								</button> */}
+								<button
+									className="transition absolute top-2 right-2 ease-in-out duration-300 hover:text-purple-500 shadow hover:shadow-md rounded-full w-8 h-8 text-center p-1 flex justify-center "
+									onClick={() => {
+										// Toggle the wishlist property of the item
+										item.wishlist = !item.wishlist;
+									}}>
 									{item.wishlist ? (
 										<WishlistDone className="w-5 h-5 " fill="red" />
 									) : (
@@ -63,7 +113,9 @@ function App() {
 								{item.category}
 							</div>
 							<div className="flex justify-between items-center ">
-								<div className="text-lg overflow-hidden whitespace-nowrap overflow-ellipsis font-bold ">
+								<div
+									className="text-lg overflow-hidden whitespace-nowrap overflow-ellipsis cursor-pointer font-bold "
+									onClick={() => openDetails(item)}>
 									{item.productName}
 								</div>
 								{item.stock ? (
