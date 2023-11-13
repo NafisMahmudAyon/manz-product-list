@@ -142,7 +142,7 @@ function App() {
 									<div className="text-xl font-bold ">৳{item.regularPrice}</div>
 								)}
 							</div>
-							<div className="flex gap-4">
+							<div className={`flex gap-4 ${activeButton === 'Pant' ? "flex-col items-start" : "" } `}>
 								<div className="flex justify-center items-center gap-2">
 									<span className="text-gray-400">Color:</span>
 									<span
